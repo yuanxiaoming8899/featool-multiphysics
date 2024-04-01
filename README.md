@@ -1,212 +1,141 @@
-FEATool Multiphysics - _Physics Simulation Made Easy_
-=====================================================
-
-![FEATool Multiphysics Screenshot](screenshot.jpg)
-
-About
------
-
-[**FEATool Multiphysics**](https://www.featool.com) (short for
-<b>F</b>inite <b>E</b>lement <b>A</b>nalysis <b>Tool</b>box), is a
-fully integrated simulation platform for modeling all types of coupled
-physics phenomena, continuum mechanics, and engineering problems.
-
-By providing a truly **easy to use** and integrated **all-in-one**
-simulation platform for multi-physics analysis, makes _FEATool_ an
-ideal simulation and modeling tool for everyone from students learning
-mathematical modeling, to researchers and engineers wishing to explore
-new ideas in a **no fuss**, simple, and convenient way.
-
-
-[Features](https://www.featool.com/featool-multiphysics-features)
---------
-
-- Very easy to use Graphical User Interface (GUI)
-- Built-in and fully integrated tools for
-  + 1D, 2D, and 3D geometry and CAD modeling
-  + Automatic mesh generation
-  + State-of-the-art physics solvers
-  + Post-processing and visualization
-- Pre-defined equations for
-  + [Heat and Mass Transfer](https://www.featool.com/multiphysics#heat-and-mass-transfer)
-  + [Fluid Dynamics (CFD)](https://www.featool.com/cfd-toolbox)
-  + [Structural Mechanics](https://www.featool.com/multiphysics#structural-mechanics)
-  + [Electromagnetics](https://www.featool.com/multiphysics#electromagnetics)
-  + [Classical PDE](https://www.featool.com/multiphysics#partial-differential-equations)
-- One-click seamless integration to several _state-of-the-art_ physics solvers
-  + [FEniCS (FEA/Multiphysics)](https://www.featool.com/doc/fenics.html)
-  + [OpenFOAM® (CFD)](https://www.featool.com/doc/openfoam.html)
-  + [SU2 (CFD)](https://www.featool.com/doc/su2.html)
-- [User-defined and custom PDEs](https://www.featool.com/doc/physics.html#phys_ce)
-- Easy equation and expression parser (enter equations and coefficients
-  _like writing equations on paper_ without any programming)
-- Process, export, and share results and data online with
-  [ParaView and Plotly web plots](https://www.featool.com/web-plots)
-- Save and export models in
-  + Binary file format
-  + Python FEniCS simulation scripts
-  + MATLAB® m-file script format
-  + GUI playback script format
-- Fully programmable and scriptable with Python and MATLAB®
-  (including support for integration and embedding of
-  simulation apps in custom applications and toolboxes)
-
-
-[System Requirements](https://www.featool.com/doc/quickstart.html#prereq)
--------------------
-
-_FEATool_ is a fully integrated simulation environment, which has been
-tested and verified to work with 64-bit Windows, Linux, and MacOS
-operating systems with a minimum of 4 GB RAM memory.
-
-
-[Installation](https://www.featool.com/doc/quickstart.html#install)
-------------
-
-In order to use _FEATool_, the software must first be installed on the
-intended computer system. It is recommended to first uninstall
-previous versions before installing/upgrading to a newer version.
-
-Please follow the steps below to install _FEATool_ as a stand-alone
-app, or as a MATLAB® toolbox. The installers can be downloaded
-directly from the
-[FEATool releases](https://github.com/precise-simulation/featool-multiphysics/releases/latest)
-and installed manually, or installed from the MATLAB® APPS and Add-On
-Toolbar as a toolbox.
-
-<p align="center">
-  <a href="https://www.featool.com/download" target="_blank">
-    <img src="download.png" alt="FEATool Multiphysics Download" style="max-width:50%">
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool Multiphysics -</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">物理仿真变得简单</font></font></em></h1><a id="user-content-featool-multiphysics---physics-simulation-made-easy" class="anchor" aria-label="永久链接：FEATool Multiphysics - 物理模拟变得简单" href="#featool-multiphysics---physics-simulation-made-easy"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/precise-simulation/featool-multiphysics/blob/master/screenshot.jpg"><img src="/precise-simulation/featool-multiphysics/raw/master/screenshot.jpg" alt="FEATool 多物理场屏幕截图" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于</font></font></h2><a id="user-content-about" class="anchor" aria-label="永久链接：关于" href="#about"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://www.featool.com" rel="nofollow"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool Multiphysics</font></font></strong></a><font style="vertical-align: inherit;"></font><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> （有限</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">元</font></font><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析</font></font></b><font style="vertical-align: inherit;"></font><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工具箱</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的</font><font style="vertical-align: inherit;">缩写
+</font><font style="vertical-align: inherit;">）是一个完全集成的仿真平台，用于对所有类型的耦合物理现象、连续介质力学和工程问题进行</font><font style="vertical-align: inherit;">建模</font></font><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></b><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过</font><font style="vertical-align: inherit;">
+为多物理场分析提供一个真正</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">易于使用</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">且集成</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的一体化仿真平台， </font></font></strong><font style="vertical-align: inherit;"></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool成为每个人的理想仿真和建模工具，从学习数学建模的学生到希望在</font></font></em><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无限制的情况</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下探索新想法的研究人员和工程师。</font><strong><font style="vertical-align: inherit;">大惊小怪</font></strong><font style="vertical-align: inherit;">，简单，方便的方法。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><a href="https://www.featool.com/featool-multiphysics-features" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></a></h2><a id="user-content-features" class="anchor" aria-label="永久链接：特点" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常易于使用的图形用户界面 (GUI)</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内置且完全集成的工具
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1D、2D 和 3D 几何和 CAD 建模</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动网格生成</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最先进的物理求解器</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后处理和可视化</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预定义方程
+</font></font><ul dir="auto">
+<li><a href="https://www.featool.com/multiphysics#heat-and-mass-transfer" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">传热传质</font></font></a></li>
+<li><a href="https://www.featool.com/cfd-toolbox" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">流体动力学（CFD）</font></font></a></li>
+<li><a href="https://www.featool.com/multiphysics#structural-mechanics" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结构力学</font></font></a></li>
+<li><a href="https://www.featool.com/multiphysics#electromagnetics" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">电磁学</font></font></a></li>
+<li><a href="https://www.featool.com/multiphysics#partial-differential-equations" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">经典偏微分方程</font></font></a></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一键无缝集成到多个</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最先进的物</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">理解算器
+</font></font><ul dir="auto">
+<li><a href="https://www.featool.com/doc/fenics.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEniCS（有限元分析/多物理场）</font></font></a></li>
+<li><a href="https://www.featool.com/doc/openfoam.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenFOAM® (CFD)</font></font></a></li>
+<li><a href="https://www.featool.com/doc/su2.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SU2 (差价合约)</font></font></a></li>
+</ul>
+</li>
+<li><a href="https://www.featool.com/doc/physics.html#phys_ce" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户定义和自定义 PDE</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简单的方程和表达式解析器（输入方程和系数，
+</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">就像在纸上写方程一样，</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无需任何编程）</font></font></li>
+<li><font style="vertical-align: inherit;"><a href="https://www.featool.com/web-plots" rel="nofollow"><font style="vertical-align: inherit;">使用ParaView 和 Plotly 网络绘图</font></a><font style="vertical-align: inherit;">在线处理、导出和共享结果和数据
+</font></font><a href="https://www.featool.com/web-plots" rel="nofollow"><font style="vertical-align: inherit;"></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保存并导出模型
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">二进制文件格式</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python FEniCS 模拟脚本</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MATLAB® m 文件脚本格式</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GUI播放脚本格式</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Python 和 MATLAB® 完全可编程和可编写脚本（包括支持在自定义应用程序和工具箱中集成和嵌入仿真应用程序）</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><a href="https://www.featool.com/doc/quickstart.html#prereq" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">系统要求</font></font></a></h2><a id="user-content-system-requirements" class="anchor" aria-label="永久链接：系统要求" href="#system-requirements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个完全集成的仿真环境，经过测试和验证，可与至少 4 GB RAM 内存的 64 位 Windows、Linux 和 MacOS 操作系统配合使用。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><a href="https://www.featool.com/doc/quickstart.html#install" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></a></h2><a id="user-content-installation" class="anchor" aria-label="永久链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了使用</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，必须首先在目标计算机系统上安装该软件。建议先卸载以前的版本，然后再安装/升级到新版本。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请按照以下步骤将</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装为独立应用程序或 MATLAB® 工具箱。安装程序可以直接从
+</font></font><a href="https://github.com/precise-simulation/featool-multiphysics/releases/latest"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool 版本</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载
+并手动安装，也可以作为工具箱从 MATLAB® APPS 和附加工具栏安装。</font></font></p>
+<p align="center" dir="auto">
+  <a href="https://www.featool.com/download" rel="nofollow">
+    <img src="/precise-simulation/featool-multiphysics/raw/master/download.png" alt="FEATool 多物理场下载" style="max-width: 100%;">
   </a>
 </p>
-
-
-### Stand-Alone App Installation
-
-Use the steps below to install the app in stand-alone mode
-
-1) First download the installer for your operating system
-
-    + [**FEATool Windows Installer**](https://github.com/precise-simulation/featool-multiphysics/releases/latest/download/FEATool_Multiphysics_install.exe)
-
-    + [**FEATool Linux Installer**](https://github.com/precise-simulation/featool-multiphysics/releases/latest/download/FEATool_Multiphysics.install)
-
-2) Save it to a directory and run the installer. This will first
-download and/or install the application runtime if required (which may
-require up to 10 GB space to install), and then the program file will
-be extracted.
-
-3) When everything has been installed, run the program file to start
-_FEATool_. Please be patient as the application runtime can take some
-time to start.
-
-
-### MATLAB® Toolbox Installation
-
-Follow the steps below to install _FEATool_ as a MATLAB® toolbox, and
-to enable running MATLAB® simulation m-scripts
-
-1) Download the
-   [FEATool_Multiphysics.mlappinstall](https://github.com/precise-simulation/featool-multiphysics/releases/latest/download/FEATool_Multiphysics.mlappinstall)
-   toolbox installation file.
-
-2) Then start MATLAB®, press the **APPS** toolbar button,
-   and select the **Install App** button.
-
-3) When prompted to choose a toolbox file to install, select the
-   **FEATool_Multiphysics.mlappinstall** file and press **OK**.
-
-4) Press the **Install** button if prompted to _"Install to My Apps"_.
-
-![FEATool Multiphysics MATLAB® Toolbox Installation](https://www.featool.com/doc/featool-multiphysics-toolbox-installation_50.jpg)
-
-Once the toolbox has been installed, an app icon will be available in
-the _APPS_ toolbar to start the _FEATool_ GUI. (Note that MATLAB® may
-not show or give any indication of the toolbox installation progress
-or completion.)
-
-
-[Tutorials and Examples](https://www.featool.com/doc/quickstart.html#tutorials_and_examples)
-----------------------
-
-Automated modeling tutorials and examples for various multi-physics
-applications can be selected and run from the **File** > **Model
-Examples and Tutorials** menu option in the GUI.
-
-Example script files and simulation models are also available in the
-[_examples folder_](https://github.com/precise-simulation/featool-multiphysics/tree/master/examples)
-of the _FEATool_ program directory. Moreover, new tutorials and
-articles are frequently published on the
-[FEATool blog & technical articles](https://www.featool.com/articles).
-
-
-[Basic Use](https://www.featool.com/doc/quickstart.html#qs_work)
----------
-
-_FEATool_ and the GUI has been specifically designed to be as easy to
-use as possible, and making learning multiphysics simulation by
-experimentation easy.
-
-The standard modeling process is divided into six different steps or modes
-
-- **Geometry** - Definition of the geometry to be modeled
-- **Grid**     - Subdivision of the geometry into smaller grid cells
-                 suitable for computation
-- **Equation** - Specification of physics, material parameters, and coefficients
-- **Boundary** - Boundary conditions specify how the model interacts
-                 with the surrounding environment (outside of the geometry)
-- **Solve**    - Solution and simulation of the defined model problem
-- **Post**     - Visualization and postprocessing of simulation results
-
-These modes can be accessed by clicking on the corresponding buttons
-in left hand side _Mode_ toolbar. Each mode has specialized and
-different _Tools_ available in the toolbar that will be activated when
-selected. Additional and advanced mode options are also be available
-in the mode menus.
-
-Basic use and how to set up and model coupled fluid flow and
-temperature in a heat exchanger is explained in the
-[linked video tutorial](https://youtu.be/TBfVWgYbGTw)
-(click on the image below to start the tutorial).
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=TBfVWgYbGTw" target="_blank">
-    <img src="https://img.youtube.com/vi/TBfVWgYbGTw/0.jpg"
-         alt="FEATool Heat Exchanger Quickstart Video Tutorial" style="max-width:100%">
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">独立应用程序安装</font></font></h3><a id="user-content-stand-alone-app-installation" class="anchor" aria-label="永久链接：独立应用程序安装" href="#stand-alone-app-installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用以下步骤以独立模式安装应用程序</font></font></p>
+<ol dir="auto">
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先下载适合您操作系统的安装程序</font></font></p>
+<ul dir="auto">
+<li>
+<p dir="auto"><a href="https://github.com/precise-simulation/featool-multiphysics/releases/latest/download/FEATool_Multiphysics_install.exe"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool Windows 安装程序</font></font></strong></a></p>
+</li>
+<li>
+<p dir="auto"><a href="https://github.com/precise-simulation/featool-multiphysics/releases/latest/download/FEATool_Multiphysics.install"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool Linux 安装程序</font></font></strong></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将其保存到目录并运行安装程序。如果需要，这将首先下载和/或安装应用程序运行时（可能需要最多 10 GB 的安装空间），然后提取程序文件。</font></font></p>
+</li>
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装完所有内容后，运行程序文件以启动
+</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。请耐心等待，因为应用程序运行时可能需要一些时间才能启动。</font></font></p>
+</li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MATLAB® 工具箱安装</font></font></h3><a id="user-content-matlab-toolbox-installation" class="anchor" aria-label="永久链接：MATLAB® 工具箱安装" href="#matlab-toolbox-installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按照以下步骤将</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装为 MATLAB® 工具箱，并启用运行 MATLAB® 仿真 m 脚本</font></font></p>
+<ol dir="auto">
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载
+</font></font><a href="https://github.com/precise-simulation/featool-multiphysics/releases/latest/download/FEATool_Multiphysics.mlappinstall"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool_Multiphysics.mlappinstall</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+工具箱安装文件。</font></font></p>
+</li>
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后启动 MATLAB®，按</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">APPS</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工具栏按钮，然后选择</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装应用程序</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按钮。</font></font></p>
+</li>
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当提示选择要安装的工具箱文件时，选择
+</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool_Multiphysicals.mlappinstall</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件并按</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OK</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+</li>
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果提示</font><em><font style="vertical-align: inherit;">“安装到我的应用程序”，</font></em><font style="vertical-align: inherit;">请按</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“安装”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按钮。</font></font><em><font style="vertical-align: inherit;"></font></em><font style="vertical-align: inherit;"></font></p>
+</li>
+</ol>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/49f439f47eb12ed2495225d09abd2c57946d18cb10b4ce820cdbe36ceae9103a/68747470733a2f2f7777772e666561746f6f6c2e636f6d2f646f632f666561746f6f6c2d6d756c7469706879736963732d746f6f6c626f782d696e7374616c6c6174696f6e5f35302e6a7067"><img src="https://camo.githubusercontent.com/49f439f47eb12ed2495225d09abd2c57946d18cb10b4ce820cdbe36ceae9103a/68747470733a2f2f7777772e666561746f6f6c2e636f6d2f646f632f666561746f6f6c2d6d756c7469706879736963732d746f6f6c626f782d696e7374616c6c6174696f6e5f35302e6a7067" alt="FEATool Multiphysics MATLAB® 工具箱安装" data-canonical-src="https://www.featool.com/doc/featool-multiphysics-toolbox-installation_50.jpg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装工具箱后，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">APPS</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工具栏中将出现一个应用程序图标，用于启动</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> GUI。 （请注意，MATLAB® 可能不会显示或给出工具箱安装进度或完成的任何指示。）</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><a href="https://www.featool.com/doc/quickstart.html#tutorials_and_examples" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程和示例</font></font></a></h2><a id="user-content-tutorials-and-examples" class="anchor" aria-label="永久链接：教程和示例" href="#tutorials-and-examples"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以从GUI 中的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“文件”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &gt; “</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型示例和教程”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">菜单选项选择并运行各种多物理场应用的自动建模教程和示例。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><em><font style="vertical-align: inherit;">FEATool</font></em><font style="vertical-align: inherit;">程序目录
+的</font></font><a href="https://github.com/precise-simulation/featool-multiphysics/tree/master/examples"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例文件夹</font></font></em></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中还提供了示例脚本文件和仿真模型
+</font><font style="vertical-align: inherit;">。此外，新的教程和文章经常发布在
+</font><a href="https://www.featool.com/articles" rel="nofollow"><font style="vertical-align: inherit;">FEATool 博客和技术文章</font></a><font style="vertical-align: inherit;">上。</font></font><em><font style="vertical-align: inherit;"></font></em><font style="vertical-align: inherit;"></font><a href="https://www.featool.com/articles" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><a href="https://www.featool.com/doc/quickstart.html#qs_work" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本使用</font></font></a></h2><a id="user-content-basic-use" class="anchor" aria-label="永久链接：基本使用" href="#basic-use"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和 GUI 经过专门设计，尽可能易于使用，使通过实验学习多物理场仿真变得容易。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标准建模过程分为六个不同的步骤或模式</font></font></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">几何体</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 要建模的几何体的定义</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网格</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">     - 将几何体细分为适合计算的更小的网格单元</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方程</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 物理、材料参数和系数的规范</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">边界</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 边界条件指定模型如何与周围环境（几何体外部）交互</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Solve</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">     - 定义模型问题的求解和模拟</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后期</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">     - 模拟结果的可视化和后处理</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过单击左侧</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模式</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工具栏中的相应按钮可以访问这些模式。每种模式的</font><font style="vertical-align: inherit;">工具栏中</font><font style="vertical-align: inherit;">都有专门的不同</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工具</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，选择这些工具将被激活。模式菜单中还提供了附加和高级模式选项。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://youtu.be/TBfVWgYbGTw" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接的视频教程</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中解释了基本用途以及如何设置和模拟热交换器中耦合的流体流量和温度
+</font><font style="vertical-align: inherit;">
+（单击下图开始教程）。</font></font></p>
+<p align="center" dir="auto">
+  <a href="https://www.youtube.com/watch?v=TBfVWgYbGTw" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/df3aa05332953d7f56c257a4f8567c32595a01247a510cd1976e372e61da26c9/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f54426656576759624754772f302e6a7067" alt="FEATool 热交换器快速入门视频教程" data-canonical-src="https://img.youtube.com/vi/TBfVWgYbGTw/0.jpg" style="max-width: 100%;">
   </a>
 </p>
-
-
-Documentation
--------------
-
-The
-[FEATool Documentation](https://www.featool.com/doc)
-is available online, and also by selecting the corresponding option in
-the _Help_ menu of the GUI.
-
-
-License
--------
-
-(C) Copyright 2013-2024 by Precise Simulation Limited.
-All Rights Reserved.
-
-FEATool Multiphysics™ is a trademark of Precise Simulation
-Limited. MATLAB® is a registered trademark of The MathWorks,
-Inc. OPENFOAM® is a registered trade mark of OpenCFD Limited, producer
-and distributor of the OpenFOAM® software. All other trademarks are
-the property of their respective owners. Precise Simulation and its
-products are not affiliated with, endorsed, or sponsored by these
-trademark owners.
-
-The license agreement for using FEATool Multiphysics™ is included with
-the distribution and can also be viewed by selecting
-_About FEATool..._ > _License Agreement_ from the _Help_ menu in the
-application.
-
-Carefully read the license terms and conditions before installing or
-using the programs or documentation. Installing or using the programs
-means you have accepted and agree to be bound by the terms and
-conditions of this agreement. if you do not accept them, uninstall,
-remove and completely delete the programs and documentation.
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2><a id="user-content-documentation" class="anchor" aria-label="永久链接：文档" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool
+</font></font><a href="https://www.featool.com/doc" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+可在线获取，也可通过在</font><font style="vertical-align: inherit;">GUI 的</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“帮助”菜单中选择相应选项来获取。</font></font></em><font style="vertical-align: inherit;"></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(C) 版权所有 2013-2024，归 Precise Simulation Limited 所有。版权所有。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FEATool Multiphysics™ 是 Precise Simulation Limited 的商标。 MATLAB® 是 The MathWorks, Inc. 的注册商标。 OPENFOAM® 是 OpenCFD Limited（OpenFOAM® 软件的生产商和分销商）的注册商标。所有其他商标均为其各自所有者的财产。 Precise Simulation 及其产品不隶属于这些商标所有者，也不受这些商标所有者的认可或赞助。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 FEATool Multiphysics™ 的许可协议包含在发行版中，也可以通过
+</font><font style="vertical-align: inherit;">从</font><font style="vertical-align: inherit;">应用程序的</font><em><font style="vertical-align: inherit;">帮助菜单中选择</font></em></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于 FEATool...</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &gt;</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可协议来查看。</font></font></em><font style="vertical-align: inherit;"></font><em><font style="vertical-align: inherit;"></font></em><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在安装或使用程序或文档之前，请仔细阅读许可条款和条件。安装或使用该程序即表示您已接受并同意受本协议的条款和条件的约束。如果您不接受，请卸载、删除并完全删除这些程序和文档。</font></font></p>
+</article></div>
